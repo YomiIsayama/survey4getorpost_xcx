@@ -1,0 +1,1 @@
+server is node.js  . you can use ndoe index.js to run this service

@@ -1,0 +1,33 @@
+<view class="container">
+  <form bindsubmit="submit">
+      <view>
+      <text>num：</text>
+      <input name="sno" value="{{sno}}" />
+    </view>
+    <view>
+      <text>name：</text>
+      <input name="name" value="" />
+    </view>
+    <view>
+      <text>sex：</text>
+      <radio-group name="gender">
+        <label><radio value="1" checked="true"/>Male</label>
+        <label><radio value="0" checked=""/>Female</label>
+      </radio-group>
+    </view>
+    <view>
+      <text>skill：</text>
+      <checkbox-group name="skills">
+        <label><checkbox value="html" checked="true"/>HTML</label>
+        <label><checkbox value="css" />CSS</label>
+        <label><checkbox value="js" />JavaScript</label>
+        <label><checkbox value="ps" />Photoshop</label>
+      </checkbox-group>
+    </view>
+    <view>
+      <text>opinion：</text>
+      <textarea name="opinion" value="" />
+    </view>
+    <button form-type="submit">post</button>
+  </form>
+</view>
